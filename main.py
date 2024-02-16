@@ -3,7 +3,6 @@ import asyncio
 
 from aiogram import Bot, Dispatcher, types
 from dotenv import load_dotenv, find_dotenv
-from aiogram.filters import Command
 
 from handlers.private_handler import private_router
 from handlers.group_handler import group_handler
