@@ -1,6 +1,7 @@
 from aiogram.filters import Filter
 from aiogram import Bot, types
 
+# Кастомний фільтер для типу чатів
 
 class ChatTypeFilter(Filter):
     def __init__(self, chat_types: list[str]) -> None:
